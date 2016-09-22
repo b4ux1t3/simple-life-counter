@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ApplicationName">Life Counter</string>
+    <string name="resetLifeTitle">Reset Life Totals</string>
+    <string name="lifeTotalPrompt">Choose a life total</string>
+    <string-array name="lifeTotalArray">
+      <item>20</item>
+      <item>30</item>
+      <item>40</item>
+    </string-array>
+    <string name="BulkLifeChangeTitle">Bulk Life Change</string>
+</resources>

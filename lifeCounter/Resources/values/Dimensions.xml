@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="parentPadding">10dp</dimen>
+  <dimen name="lifeTotalMargin">10dp</dimen>
+  <dimen name="lifeTotalSize">90dp</dimen>
+  <dimen name="lifeTotalWidth">150dp</dimen>
+  <dimen name="resetLifeSpinnerHeight">20dp</dimen>
+  <dimen name="spinnerHeight">30dp</dimen>
+</resources>

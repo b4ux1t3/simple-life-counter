@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/resetLifeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resetLifeTitle"
+        android:layout_margin="@dimen/lifeTotalMargin"
+        android:layout_centerInParent="true" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/spinnerHeight"
+        android:layout_below="@id/resetLifeTitle"
+        android:id="@+id/lifeTotalSpinner"
+        android:prompt="@string/lifeTotalPrompt"
+        android:layout_margin="@dimen/lifeTotalMargin" />
+</RelativeLayout>

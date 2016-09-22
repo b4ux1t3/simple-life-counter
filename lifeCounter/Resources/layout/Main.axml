@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/parentPadding">
+    <TextView
+        android:text="20"
+        android:layout_width="@dimen/lifeTotalWidth"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerTwoLife"
+        android:lines="1"
+        android:layout_gravity="top"
+        android:typeface="monospace"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:rotation="180"
+        android:textSize="@dimen/lifeTotalSize"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:text="20"
+        android:layout_width="@dimen/lifeTotalWidth"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerOneLife"
+        android:lines="1"
+        android:layout_gravity="bottom"
+        android:typeface="monospace"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/lifeTotalSize"
+        android:gravity="center_horizontal" />
+<!--<Button
+        android:text="Reset"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/lifeTotalSize"
+        android:id="@+id/btnReset"
+        android:layout_centerInParent="true" />-->
+    <ImageButton
+        android:id="@+id/btnReset"
+        android:src="@drawable/untap"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#303030" />
+    <Button
+        android:text="-"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/lifeTotalSize"
+        android:layout_toRightOf="@id/playerTwoLife"
+        android:id="@+id/playerTwoLifeDown"
+        android:layout_margin="@dimen/lifeTotalMargin" />
+    <Button
+        android:text="+"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/lifeTotalSize"
+        android:layout_toLeftOf="@id/playerTwoLife"
+        android:id="@+id/playerTwoLifeUp"
+        android:layout_margin="@dimen/lifeTotalMargin" />
+    <Button
+        android:text="+"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/lifeTotalSize"
+        android:layout_toRightOf="@id/playerOneLife"
+        android:id="@+id/playerOneLifeUp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/lifeTotalMargin" />
+    <Button
+        android:text="-"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/lifeTotalSize"
+        android:layout_toLeftOf="@id/playerOneLife"
+        android:id="@+id/playerOneLifeDown"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/lifeTotalMargin" />
+</RelativeLayout>
